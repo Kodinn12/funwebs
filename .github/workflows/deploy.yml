@@ -44,7 +44,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url:https://kodinn12.github.io/funwebs/
+      url: https://kodinn12.github.io/funwebs/
     runs-on: ubuntu-latest
     needs: build
     steps:
